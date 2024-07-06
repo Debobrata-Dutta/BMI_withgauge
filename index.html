@@ -99,13 +99,13 @@
             var image = document.getElementById("img");
 
             if (value <= 18) {
-                image.src = "image1.png";
+                image.src = "BMI_withgauge/image1.png";
             } else if (value >18 && value < 25) {
-                image.src = "image2.png";
+                image.src = "BMI_withgauge/image2.png";
             } else if (value >=25 && value<=30 ) {
-                image.src = "image3.png";
+                image.src = "BMI_withgauge/image3.png";
             } else if (value>35){
-                image.src = "image4.png"; // Default image if value is between 18 and 25
+                image.src = "BMI_withgauge/image4.png"; // Default image if value is between 18 and 25
             }
         }
     </script>
@@ -125,6 +125,6 @@ width:90%;">
     <input class="input" type="submit" value="Calculate" onclick="calculate();changeColor();changeImage()">
     <input class="input result" type="text" id="result">
     <input type="number" id="only">
-    <img id="img" src="default_image.png" alt="Default Image" style="width:90%;height:75%;border-radius:8px;">
+    <img id="img" src="BMI_withgauge/default_image.png" alt="Default Image" style="width:90%;height:75%;border-radius:8px;">
 </div></body>
 </html>
